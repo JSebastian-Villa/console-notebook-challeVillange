@@ -1,6 +1,6 @@
 # Notebook
 
-Esta es una aplicación de práctica para conceptos de OOP en Python. La aplicación es un cuaderno de notas simple con las siguientes características:
+Esta es una aplicación de práctica para conceptos de POO en Python. La aplicación es un cuaderno de notas simple con las siguientes características:
 
 - Agregar una nota con un título, el texto de la nota y la importancia de la nota (HIGH, MEDIUM, LOW). 
 El sistema debe asignar un identificador único a cada nota.
