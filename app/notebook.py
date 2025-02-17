@@ -13,7 +13,20 @@ class Note:
         self.title = title
         self.text = text
         self.importante = importance
-        self.creation_date = creation_date
+        self.tags : list[str] = []
+
+    def add_tag(self, tag: str ):
+        if tag not in self.tags:
+            self.tags.append(tag)
+        else:
+            print(f"La etiqueta ingresada ya existe!")
+
+
+
+
+
+
+
 
 
 
