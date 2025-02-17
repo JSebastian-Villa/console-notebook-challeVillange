@@ -19,7 +19,22 @@ class Note:
         if tag not in self.tags:
             self.tags.append(tag)
         else:
-            print(f"La etiqueta ingresada ya existe!")
+            print(f"El número de etiqueta {tag} ya existe!")
+
+
+
+
+class Notebook:
+
+    def __init__(self,note: list[Note]):
+        self.notes: list[Note] = []
+
+
+
+
+
+
+
 
 
 
